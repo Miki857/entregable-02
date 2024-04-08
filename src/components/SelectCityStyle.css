@@ -1,0 +1,26 @@
+select{
+    border: none;
+    border-radius: 1rem;
+
+    padding: 0.5rem 1rem;
+
+    background-color: rgba(255, 255, 255, 0.2);
+
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+
+    width: 80%;
+
+    option{
+        color:black;
+    }
+}
+
+select:hover{
+    cursor: pointer;
+}
+
+select:last-of-type{
+    margin-top: 1rem;
+}
