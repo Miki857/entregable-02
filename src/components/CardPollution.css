@@ -1,0 +1,145 @@
+:root {
+    /* TYPOGRAPHY */
+    --font-very-thin: 200;
+    --font-thin: 300;
+    --font-medium: 400;
+    --font-bold: 500;
+}
+
+.title_pollution{
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 1rem;
+    
+    display: flex;
+    align-items: center;
+}
+
+.tablePollution{
+    border: solid 1px rgba(255,255,255,0.3);
+
+    width: 100%;
+
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+    background: rgba(255,255,255,0.3);
+
+    overflow: hidden;
+
+    td, th{
+        border-bottom: solid 1px rgba(255,255,255,0.3);
+    }
+
+    th{
+        line-height: 1rem;
+        text-align: center;
+        font-size: 0.75rem;
+    }
+
+    td{
+        line-height: 1.5rem;
+        text-align: end;
+        font-size: 0.75rem;
+
+        font-weight: var(--font-very-thin);
+
+        color: black;
+    }
+
+    caption{
+        color: white;
+        background-color: rgba(106, 97, 78, 0.72);
+        border: solid 1px rgba(255,255,255,0.3);
+    }
+}
+
+.tableLeyend{
+    width: 100%;
+
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+
+    th{
+        line-height: 1rem;
+        text-align: center;
+        color: white;
+        border-bottom: solid 1px rgba(255,255,255,0.3);
+    }
+
+    td{
+        line-height: 2rem;
+        text-align: center;
+        width: fit-content;
+        border-right: solid 1px rgba(255,255,255,0.3);
+
+        font-weight: var(--font-very-thin);
+
+        color: white;
+    }
+
+    caption{
+        color: white;
+    }
+}
+
+.tableData{
+    width: 100%;
+
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+
+    th{
+        line-height: 1rem;
+        text-align: center;
+        color: white;
+        border-bottom: solid 1px rgba(255,255,255,0.3);
+    }
+
+    td{
+        line-height: 2rem;
+        text-align: center;
+        width: fit-content;
+        border-right: solid 1px rgba(255,255,255,0.3);
+
+        font-weight: var(--font-very-thin);
+
+        color: white;
+    }
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 800px){
+
+}
+
+/* ATTRIBUTES */
+.pollutionGood{
+    color: rgb(33, 253, 33);
+    border: solid 1px green;
+    background-color: rgba(0, 255, 0, 0.1);
+}
+.pollutionFair{
+    color: rgb(192, 255, 44);
+    border: solid 1px rgb(192, 255, 44);
+    background-color: rgba(90, 128, 0, 0.1);
+}
+.pollutionModerate{
+    color: rgb(245, 255, 99);
+    border: solid 1px rgb(245, 255, 99);
+    background-color: rgba(90, 128, 0, 0.1);
+}
+.pollutionPoor{
+    color: rgb(255, 164, 79);
+    border: solid 1px rgb(255, 164, 79);
+    background-color: rgba(128, 62, 0, 0.1);
+}
+.pollutionVeryPoor{
+    color: rgb(255, 88, 88);
+    border: solid 1px rgb(255, 88, 88);
+    background-color: rgba(128, 0, 0, 0.1);
+}
+
+.pollutionGood, .pollutionFair, .pollutionModerate, .pollutionPoor, .pollutionVeryPoor{
+    border-radius: 2rem;
+}
