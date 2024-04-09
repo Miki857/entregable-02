@@ -78,7 +78,7 @@ html{
 
   .cardsContainer{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 1rem;
     align-items: center;
 
@@ -242,15 +242,16 @@ html{
 }
 
 @media screen and (min-width: 1000px){
+  .card{
+    width: 30rem !important;
+  }
+}
 
+@media screen and (min-width: 1150px){
   .cardsContainer{
     flex-direction: row !important;
     justify-content: space-evenly;
     align-items: normal !important;
-  }
-
-  .card{
-    width: 30rem !important;
   }
 }
 
