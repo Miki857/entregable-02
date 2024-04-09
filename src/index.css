@@ -234,14 +234,11 @@ html{
   }
 }
 
-/* MEDIA QUERIES */
-@media screen and (min-width: 600px){
-  .card{
-    width: 70% !important;
-  }
-}
-
 @media screen and (min-width: 1150px){
+  .card{
+    width: 30rem !important;
+  }
+
   .cardsContainer{
     flex-direction: row !important;
     justify-content: space-evenly;
