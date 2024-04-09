@@ -241,11 +241,7 @@ html{
   }
 }
 
-@media screen and (min-width: 1000px){
-  .card{
-    width: 30rem !important;
-  }
-}
+@media screen and (min-width: 1200px){
 
 @media screen and (min-width: 1150px){
   .cardsContainer{
