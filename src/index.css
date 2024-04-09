@@ -78,7 +78,7 @@ html{
 
   .cardsContainer{
     display: flex;
-    flex-direction: column;
+    flex-direction: reverse-column;
     gap: 1rem;
     align-items: center;
 
@@ -241,7 +241,7 @@ html{
   }
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1200px){
 
   .cardsContainer{
     flex-direction: row !important;
