@@ -6,7 +6,7 @@ const CardPolution = (props) => {
     const [data, setData] = useState({});//Save Pollution data.
     let updataData = {}
 
-    const url = `http://api.openweathermap.org/data/2.5/air_pollution?lat=${props.latitude}&lon=${props.longitude}&appid=${props.apiKey}`;//Url to get data.
+    const url = `https://api.openweathermap.org/data/2.5/air_pollution?lat=${props.latitude}&lon=${props.longitude}&appid=${props.apiKey}`;//Url to get data.
 
     axios.get(url)//Consult Api.
             .then((res) => {//Consult Success:
