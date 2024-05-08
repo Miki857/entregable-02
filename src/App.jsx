@@ -85,8 +85,8 @@ function App() {
   function error(err){
     //Error Function:
     if(err.code == 1){
-      setCanLocate(`Se denego el acceso a la ubicacion.`);
-      setCanLocateMoreInfo(`Si quieres volver a intentarlo puede que necesites recargar la pagina debido a las configuraciones de "Privacidad y Seguridad" del navegador. Si el problema persiste, prueba a cambiar esta configuracion en tu navegador.`);
+      setCanLocate(`Access to location was denied.`);
+      setCanLocateMoreInfo(`If you want to try again you may need to reload the page due to the browser's "Privacy and Security" settings. If the problem persists, try changing this setting in your browser.`);
     }
 
     console.warn(`ERROR(${err.code}): ${err.message}`);
