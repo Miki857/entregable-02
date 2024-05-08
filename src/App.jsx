@@ -140,7 +140,7 @@ function App() {
   }
   
   function axiosError(err){
-    console.log(err); alert("Datos no disponibles");
+    console.log(err); alert("Data no available");
 
     hideScreenLd();//We hide the loading screen.
   }
